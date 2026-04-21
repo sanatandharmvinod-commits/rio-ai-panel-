@@ -13,8 +13,17 @@ class RioAIApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Rio AI',
       home: Scaffold(
-        appBar: AppBar(title: const Text('Rio AI Workstation')),
-        body: const Center(child: Text('Welcome Vinod! Rio AI is Ready.')),
+        appBar: AppBar(
+          title: const Text('Rio AI Workstation'),
+          backgroundColor: Colors.blueAccent,
+        ),
+        body: const Center(
+          child: Text(
+            'Welcome Vinod!\nYour Rio AI App is Ready.',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+        ),
       ),
     );
   }
