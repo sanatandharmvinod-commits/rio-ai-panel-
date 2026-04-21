@@ -19,4 +19,3 @@ class RioAIApp extends StatelessWidget {
     );
   }
 }
-
