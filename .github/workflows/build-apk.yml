@@ -16,3 +16,4 @@ jobs:
         with:
           name: Rio-App
           path: build/app/outputs/flutter-apk/app-release.apk
+      
